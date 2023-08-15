@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  text-align: center;
+}
+nav {
+  background-color: white;
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow:  0    10px 10px #cdcdcb;
+
+}
+nav .logo a{
+  text-decoration: none;
+  color: #bdecb6;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+nav li{
+  margin-left: 7px;
+}
+nav li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+
+  border-radius: 5px;
+  transition: 0.3s;
+}
+nav li a:hover{
+  background-color: #bdecb6;
+  color: white;
+}
+nav .menu-icon{
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+  display: none;
+}
+nav .close-icon{
+  display: none;
+  font-size: 30px;
+  color: white;
+}
+.depoimentos {
+
+}
+
+.videos{
+  text-align: center;
+  display: flex;
+  margin-top: 1000px;
+  padding: 100px;
+
+}
+.depoimentos .container .text{
+  text-align: center;
+  font-size: 20px;
+}
+ .container .pantanal img{
+  text-align: center;
+  width: 1380px;
+  height: 600px;
+  padding: 50px;
+  border-radius: 60px;
+}
+.texto .titulo {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+}
+.texto .sub_titulo {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+.texto .botoes {
+  margin-top: 30px;
+}
+.texto .botoes button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: 0;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+.texto .botoes button.n-overlay{
+  color: white;
+  background: none;
+  border: 2px solid white;
+}
+.texto .botoes button.n-overlay:hover{
+  color: black;
+  background-color: white;
+}
+.texto .botoes button.overlay{
+  background-color: white;
+  color: black;
+  animation: vibrar 0.5s ease-in-out infinite both;
+}
+@keyframes vibrar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+
+.imagens {
+  text-align: center;
+
+} .imagens img{
+  border-radius: 14px;
+}
+.imagens2 {
+  text-align: center;
+
+} .imagens2 img{
+  border-radius: 14px;
+}
+.depoimentos h3{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  padding: 20px;
+  
+  
+
+}
+.cards{
+  
+  margin-top: 40px;
+
+}
+.tres .videos iframe{
+border-radius: 15px;
+margin-top: 400px;
+}
+.videos {
+  padding: 200px;
+}
+.tres{
+  height: 2000px;
+
+}
+.videos iframe {
+  padding: 10px;
+  
+  
+}
+.depoimentos .card-item1{
+background-color: #bdecb6;
+  margin: 15px;
+  border-radius: 14px;
+  text-align: center;
+  width: 1300px;
+  padding: 100px;
+
+}
+.depoimentos .card-item h3{
+  box-shadow: 15px 0 0 0 pink, -5px 0 0 0 pink;
+  background: pink;
+  display: inline;
+  padding: 3px 0 !important;
+  position: relative;
+  font-size: 20px;
+}
+.card-item .alagado{
+  padding: 10px;
+}
+
+.depoimentos .card-item{
+  background-color: #bdecb6;
+  margin: 15px;
+  border-radius: 14px;
+  text-align: center;
+  width: 1300px;
+  padding: 50px;
+}
+.card-item img{
+  border-radius: 100px;
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+
+}
+.depoimentos{
+  height: 400vh;
+}
+.but1{
+  background-color: white;
+  width: 80px;
+  border-radius: 55px;
+   cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+  border: white;
+  margin-top: 20px;
+  
+}
+.but1{
+color: white;
+  background: none;
+  border: 2px solid white;
+}
+.but1:hover{
+  color: black;
+  background-color: white;
+}
+
+
+
+.but2{
+  background-color: white;
+  width: 80px;
+  border-radius: 55px;
+   cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+  border: white;
+  margin-top: 20px;
+  
+}
+.but2{
+color: white;
+  background: none;
+  border: 2px solid white;
+}
+.but2:hover{
+  color: black;
+  background-color: white;
+}
+.but3{
+  background-color: white;
+  width: 80px;
+  border-radius: 55px;
+   cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+  border: white;
+  margin-top: 20px;
+}
+.but3{
+color: white;
+  background: none;
+  border: 2px solid white;
+}
+.but3:hover{
+  color: black;
+  background-color: white;
+}
+.but4{
+  background-color: white;
+  width: 80px;
+  border-radius: 55px;
+   cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+  border: white;
+  margin-top: 20px;
+}
+.but4{
+color: white;
+  background: none;
+  border: 2px solid white;
+}
+.but4:hover{
+  color: black;
+  background-color: white;
+}
+.depoimentos .card-item .nome-user{
+  font-weight: 600;
+  font-size: 20px;
+
+}
+.depoimentos .card-item:hover{
+  background-color: #d9f8ed;
+  margin-top: -5px;
+}
+.depoimentos .card-item:hover .nome-user,
+.depoimentos .card-item:hover .depoimento-user{
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer img{
+  width: 30px;
+  height: 30px;
+
+}
+footer{
+  background-color: ;
+    display: flex;
+  justify-content: center;
+  text-align: center;
+
+  
+}
+footer a{
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+footer a:hover{
+  color: black;
+}
+@media(max-width: 830px){
+  /*menu mobile*/
+  .ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: red;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    clip-path: circle(0% at 100% 0);
+    transition: ;
+  }
+  .ul.open{
+    clip-path: circle(141.5% at 100% 0);
+  }
+  .ul li{
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  nav .menu-icon{
+    display: block;
+  }
+  nav .close-icon{
+    display: block;
+  }
+  .texto .botoes button.overlay{
+  background-color: white;
+  color: black;
+  animation: none;
+}
+}
+.informacao{
+  text-align: center;
+  font-size: 15px;
+  background-color: ;
+}
