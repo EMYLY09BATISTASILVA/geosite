@@ -77,16 +77,24 @@ nav .close-icon{
   justify-content: center;
   align-items: center;
   color: black;
+  
  
 }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+h1{
+  font-size: 40px;
+  color: #bdecb6;
+
+}
+h2{
+  font-size: 40px;
+  color: #bdecb6;
+
 }
 
 p {
   font-size: 16px;
+  text-align: center;
 }
 .box1{
 height: 200px;
@@ -101,6 +109,8 @@ justify-content: center;
 text-align: center;
 border-radius: 20px;
 box-shadow:  0    10px 10px rgba(0, 0, 0, 0.5);
+text-align: center;
+
 }
 
 .box2{
@@ -224,9 +234,10 @@ margin-top: -50px;
   outline: none;
   transition: 0.3s;
   border: white;
-  margin-top: 20px;
-  
+  margin-top: 80px;
+  margin-right: 170px;
 }
+
 .but1{
 color: white;
   background: none;
