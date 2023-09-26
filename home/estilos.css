@@ -100,7 +100,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 border-radius: 20px;
-
+box-shadow:  0    10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .box2{
@@ -115,6 +115,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 border-radius: 20px;
+box-shadow:  0    10px 10px rgba(0, 0, 0, 0.5);
 }
 .box3{
 height: 200px;
@@ -128,6 +129,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 border-radius: 20px;
+box-shadow:  0    10px 10px rgba(0, 0, 0, 0.5);
 }
 .box4{
 height: 200px;
@@ -141,6 +143,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 border-radius: 20px;
+box-shadow:  0    10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .container .box .box1:hover{
@@ -177,7 +180,7 @@ margin-top: -50px;
   text-align: center;
   width: 350px;
   padding: 50px;
-  box-shadow:  0    10px 10px black;
+  box-shadow:  0    10px 10px rgba(0, 0, 0, 0.5);
 }
 .depoimentos .card-item2{
   background-color: #e1d4bd;
@@ -186,7 +189,7 @@ margin-top: -50px;
   text-align: center;
   width: 350px;
   padding: 50px;
-  box-shadow:  0    10px 10px black;
+  box-shadow: 0    10px 10px rgba(0, 0, 0, 0.5) ;
 }
 .depoimentos .card-item3{
   background-color: #e1d4bd;
@@ -195,7 +198,7 @@ margin-top: -50px;
   text-align: center;
   width: 350px;
   padding: 50px;
-  box-shadow:  0    10px 10px black;
+  box-shadow:  0    10px 10px rgba(0, 0, 0, 0.5);
 }
 .depoimentos .card-item4{
   background-color: #e1d4bd;
@@ -204,7 +207,7 @@ margin-top: -50px;
   text-align: center;
   width: 350px;
   padding: 50px;
-  box-shadow:  0    10px 10px black;
+  box-shadow:  0    10px 10px rgba(0, 0, 0, 0.5);
 }
 
 
